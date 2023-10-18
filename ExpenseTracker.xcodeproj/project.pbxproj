@@ -11,6 +11,13 @@
 		F721488E2ADE8C9D005906C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F721488D2ADE8C9D005906C2 /* ContentView.swift */; };
 		F72148902ADE8C9E005906C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F721488F2ADE8C9E005906C2 /* Assets.xcassets */; };
 		F72148932ADE8C9E005906C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72148922ADE8C9E005906C2 /* Preview Assets.xcassets */; };
+		F721489C2ADE8CC6005906C2 /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F721489B2ADE8CC6005906C2 /* ExpenseModel.swift */; };
+		F72148A02ADE8D3F005906C2 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F721489F2ADE8D3F005906C2 /* CategoryModel.swift */; };
+		F72148A42ADE8E2D005906C2 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72148A32ADE8E2D005906C2 /* ExpensesView.swift */; };
+		F72148A62ADE8E34005906C2 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72148A52ADE8E34005906C2 /* CategoriesView.swift */; };
+		F72148A82ADE92B4005906C2 /* GroupedExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72148A72ADE92B4005906C2 /* GroupedExpenseModel.swift */; };
+		F72148AA2ADE992E005906C2 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72148A92ADE992E005906C2 /* AddExpenseView.swift */; };
+		F72148AC2ADEBEC5005906C2 /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72148AB2ADEBEC5005906C2 /* ExpenseCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		F721488D2ADE8C9D005906C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F721488F2ADE8C9E005906C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72148922ADE8C9E005906C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F721489B2ADE8CC6005906C2 /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		F721489F2ADE8D3F005906C2 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F72148A32ADE8E2D005906C2 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		F72148A52ADE8E34005906C2 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		F72148A72ADE92B4005906C2 /* GroupedExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpenseModel.swift; sourceTree = "<group>"; };
+		F72148A92ADE992E005906C2 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		F72148AB2ADEBEC5005906C2 /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,8 @@
 		F721488A2ADE8C9D005906C2 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				F721488B2ADE8C9D005906C2 /* ExpenseTrackerApp.swift */,
-				F721488D2ADE8C9D005906C2 /* ContentView.swift */,
+				F721489A2ADE8CB1005906C2 /* Model */,
+				F72148992ADE8CAA005906C2 /* View */,
 				F721488F2ADE8C9E005906C2 /* Assets.xcassets */,
 				F72148912ADE8C9E005906C2 /* Preview Content */,
 			);
@@ -65,6 +79,29 @@
 				F72148922ADE8C9E005906C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F72148992ADE8CAA005906C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F721488B2ADE8C9D005906C2 /* ExpenseTrackerApp.swift */,
+				F72148A32ADE8E2D005906C2 /* ExpensesView.swift */,
+				F72148A52ADE8E34005906C2 /* CategoriesView.swift */,
+				F721488D2ADE8C9D005906C2 /* ContentView.swift */,
+				F72148A92ADE992E005906C2 /* AddExpenseView.swift */,
+				F72148AB2ADEBEC5005906C2 /* ExpenseCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F721489A2ADE8CB1005906C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F721489B2ADE8CC6005906C2 /* ExpenseModel.swift */,
+				F721489F2ADE8D3F005906C2 /* CategoryModel.swift */,
+				F72148A72ADE92B4005906C2 /* GroupedExpenseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F721489C2ADE8CC6005906C2 /* ExpenseModel.swift in Sources */,
+				F72148A02ADE8D3F005906C2 /* CategoryModel.swift in Sources */,
+				F72148A62ADE8E34005906C2 /* CategoriesView.swift in Sources */,
+				F72148AA2ADE992E005906C2 /* AddExpenseView.swift in Sources */,
+				F72148AC2ADEBEC5005906C2 /* ExpenseCardView.swift in Sources */,
+				F72148A82ADE92B4005906C2 /* GroupedExpenseModel.swift in Sources */,
 				F721488E2ADE8C9D005906C2 /* ContentView.swift in Sources */,
+				F72148A42ADE8E2D005906C2 /* ExpensesView.swift in Sources */,
 				F721488C2ADE8C9D005906C2 /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
